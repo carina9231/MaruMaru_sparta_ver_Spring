@@ -8,6 +8,10 @@
 - Bootstrap
 - HTML/CSS
 - Fontawesome
+    
+2) 백엔드
+- python
+- JAVA
 </details>
 
 ## Introduce
