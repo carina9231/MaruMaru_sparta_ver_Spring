@@ -31,6 +31,7 @@
 ## Project 경험
 
 - [강아지를 만나다](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 기반 커뮤니티 사이트) (2021.11 ~ 12)
+    https://github.com/carina9231/MaruMaru_sparta_ver_Spring/tree/sy_develop
     - 사용기술(Front) : HTML/CSS/JS, JQuery, Bootstrap
     - 사용기술(Back) : Spring Boot, H2, JPA, Mysql, Git Actions, AWS S3, EC2, RDS, Docker
 
@@ -43,6 +44,7 @@
 
 
 - [강아지를 만나다](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10)
+    https://github.com/carina9231/MaruMaru_sparta/tree/master
     - 사용기술(Front) : HTML/CSS/JS, Jquery, Bootstrap
     - 사용기술(Back) : Flask, MongoDB, AWS EC2
 
