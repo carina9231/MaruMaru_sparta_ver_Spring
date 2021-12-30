@@ -3,7 +3,6 @@
 
 <details>
 <summary>사용 기술</summary>
-# 사용기술
 
 1) 프론트
 - Bootstrap
