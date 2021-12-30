@@ -11,7 +11,7 @@
 </details>
 
 ## Introduce
-<img width="200" src="https://ibb.co/Zg1zNBN">
+<img width="200" src="https://i.ibb.co/qgFYxNx/IMG-3283.jpg">
 
 - 이름 : 배소영
 - Email : carina9872@gmail.com
