@@ -11,7 +11,7 @@
 </details>
 
 ## Introduce
-<img width="200" alt="Screen Shot 2021-12-30 at 2 43 45 AM" src="https://ibb.co/Zg1zNBN">
+<img width="200" src="https://ibb.co/Zg1zNBN">
 
 - 이름 : 배소영
 - Email : carina9872@gmail.com
