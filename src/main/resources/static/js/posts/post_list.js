@@ -72,7 +72,7 @@ function show_post_list(page,sort) {
 
     $.ajax({
         type: 'GET',
-        url: '/post-list',
+        url: '/api/posts',
         contentType: 'application/json; charset=utf-8',
         data: {"page":page, "sorted":sort},
         success: function (response) {
@@ -92,7 +92,7 @@ function show_post_best() {
 
     $.ajax({
         type: 'GET',
-        url: '/post-best',
+        url: '/api/post-best',
         contentType: 'application/json; charset=utf-8',
         data: {},
         success: function (response) {
@@ -150,7 +150,7 @@ function postSearch(){
     let keyword = $('#post-search-keyword').val();
     $.ajax({
         type: 'GET',
-        url: '/posts/search',
+        url: '/api/posts/search',
         data: {
             "category" : category,
             "keyword" : keyword,

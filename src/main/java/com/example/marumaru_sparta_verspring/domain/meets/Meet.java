@@ -16,36 +16,18 @@ public class Meet extends Timestamped {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
     private Long idx;
-
-    @Column
     private Long userId;
-
-    @Column
     private String username;
-
     @Column(nullable = false)
     private String title;
-
     @Column(nullable = false)
     private String content;
-
-    @Column
     private String imgUrl ="/img/no-pic.png";
-
     @Column(columnDefinition = "int default 0")
     private int view;
-
-    @Column
     private String address;
-
-    @Column
-    private String date;
+    private String date;  // 이벤트 개최날짜
 
     @OneToMany(mappedBy = "meet", cascade = CascadeType.ALL)
     private List<MeetComment> comments;
-
-    //조회수 증가
-    public void upView(int view) {
-        this.view = view;
-    }
 }

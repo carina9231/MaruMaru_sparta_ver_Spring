@@ -38,7 +38,7 @@ function post_upload() {
     } else {
         $.ajax({
             type: "POST",
-            url: "/posts",
+            url: "/api/posts",
             processData: false,
             contentType: false,
             data: formData,

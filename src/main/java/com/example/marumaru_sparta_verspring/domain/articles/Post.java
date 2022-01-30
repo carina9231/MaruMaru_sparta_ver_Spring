@@ -3,6 +3,7 @@ package com.example.marumaru_sparta_verspring.domain.articles;
 import com.example.marumaru_sparta_verspring.domain.Timestamped;
 import com.example.marumaru_sparta_verspring.domain.user.User;
 import com.example.marumaru_sparta_verspring.dto.articles.PostRequestDto;
+import com.example.marumaru_sparta_verspring.validator.PostValidator;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -57,6 +58,8 @@ public class Post extends Timestamped {
 
     //새로운 게시글 생성
     public Post(PostRequestDto postRequestDto, User user){
+        PostValidator.validatePostInput(postRequestDto,user.getId());
+
         this.user = user;
         this.title = postRequestDto.getTitle();
         this.content = postRequestDto.getContent();

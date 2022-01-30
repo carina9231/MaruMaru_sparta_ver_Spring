@@ -23,17 +23,17 @@ public class FrontController {
 
     @GetMapping("/show-post")
     public String getPagePostList(){
-        return "articles/post_list";
+        return "posts/post_list";
     }
 
     @GetMapping("/posts")
     public String getPagePosting(){
-        return "articles/post_upload";
+        return "posts/post_upload";
     }
 
     @GetMapping("/posts/detail/{idx}")
     public String getPostDetail(){
-        return "articles/post_detail";
+        return "posts/post_detail";
     }
 
     @GetMapping("/user/login")

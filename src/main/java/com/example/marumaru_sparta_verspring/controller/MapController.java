@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MapController {
     private final MeetService meetService;
 
-    @GetMapping("/getMapCoord/{idx}")
+    @GetMapping("/MapCoordinate/{idx}")
     public String getCoordinate(@PathVariable("idx") Long idx) {
         return meetService.getMeet(idx).getAddress();
     };

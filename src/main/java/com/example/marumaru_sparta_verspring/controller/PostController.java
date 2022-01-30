@@ -25,6 +25,7 @@ import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @RestController
+@RequestMapping("/api")
 public class PostController {
 
     private final PostService postService;
@@ -32,7 +33,7 @@ public class PostController {
     private final ModelMapper modelMapper;
 
     //게시글 목록
-    @GetMapping("/post-list")
+    @GetMapping("/posts")
     public Map<Integer,List<PostResponseDto>> getPostList(@RequestParam("page") int page, @RequestParam("sorted") String sort){
         Page<Post> resultList = postService.getPostList(page, 5, sort);
 //        List<PostResponseDto> postList = Arrays.asList(modelMapper.map(resultList,PostResponseDto[].class));

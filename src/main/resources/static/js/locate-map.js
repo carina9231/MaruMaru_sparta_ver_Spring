@@ -9,7 +9,7 @@ $(document).ready(function(){
 function getPostData(id){
     $.ajax({
         type:'GET',
-        url:'/getMapCoord/'+id,
+        url:'/MapCoordinate/'+id,
         contentType: 'application/json; charset=utf-8',
         success:function(response){
             getCoordinate(response);
