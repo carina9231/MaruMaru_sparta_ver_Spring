@@ -13,9 +13,6 @@ $(document).ready(function () {
     }
 });
 
-$(document).ready(function () {
-    bsCustomFileInput.init();
-})
 
 function maxComment(comment) {
     if (comment.value.length > comment.maxLength) {
